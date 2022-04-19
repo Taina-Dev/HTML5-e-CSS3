@@ -1,0 +1,75 @@
+#title, .subtitle, .post_title{
+    color: rgb(22, 22, 24);
+}
+.photo{
+    width: 80px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+.post_title{
+    font-size: 19px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+body{
+    background: #cccc;
+    font-family: Verdana;
+    max-width: 500px;
+    margin: auto;  /* muito importante ele tem uma valor auto e deixa tudo alinhadop */ 
+}
+
+a{
+text-decoration: line-through;
+color:black;
+}
+
+/* .post{
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-top: 2px dotted green; 
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left: 4px dotted cyan;
+    border-width: 5px;
+} */
+
+.post{
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 4px solid black;
+    border-radius: 5px;
+
+}
+
+.post a {
+    color: rgb(91, 10, 91);
+    text-decoration: none;  /* tira as Bodar do link */
+}
+
+.post_content{
+
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize; /*  aS PRIMEIRAS LETRAS DE CADA PALAVRA EM MAIUSCULO */
+}
+
+.post_image{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 100%;  /* atencao quanto colacamos o max-width a imagem fica certinha dentro do content */
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a {
+    color: rgb(91, 10, 91);
+    text-decoration: none;  /* tira as Bodar do link */
+    
+}
